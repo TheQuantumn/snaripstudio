@@ -12,15 +12,16 @@ export default function Index() {
   useEffect(() => {
     setSEO({
       title:
-        "Website Development in Greater Noida, Noida & Gurgaon | SnaripStudio",
+        "Website Development Company in Greater Noida, Noida & Gurgaon | SnaripStudio",
       description:
-        "SnaripStudio builds fast, SEO-friendly websites that grow your business. Trusted web development company serving Greater Noida, Noida and Gurgaon.",
+        "SnaripStudio builds fast, SEO-friendly websites that grow your business. Trusted website development company serving Greater Noida, Noida and Gurgaon.",
       keywords: [
         "snarip",
         "snarip studio",
         "snaripstudio",
         "snarip studios",
         "website development",
+        "website development company",
         "web development company",
         "Greater Noida",
         "Noida",
@@ -206,13 +207,13 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
                 href="#about"
-                className="bg-white text-gray-900 px-8 py-3 rounded-full text-sm font-medium tracking-wide transition-all hover:bg-gray-100 hover:shadow-lg"
+                className="bg-white text-gray-900 px-8 py-3 rounded-full text-sm font-medium tracking-wide transition-all hover:bg-gray-100 hover:shadow-lg hover:ring-2 hover:ring-primary/30 hover:-translate-y-0.5"
               >
                 Get Started
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border border-white/30 text-white px-8 py-3 rounded-full text-sm font-medium tracking-wide transition-all hover:bg-white/10 hover:border-white/50"
+                className="bg-transparent border border-white/30 text-white px-8 py-3 rounded-full text-sm font-medium tracking-wide transition-all hover:bg-white/10 hover:border-white/50 hover:-translate-y-0.5 hover:shadow-md"
               >
                 Let's Connect
               </a>
@@ -224,46 +225,23 @@ export default function Index() {
       {/* SEO Service Area Section */}
       <section id="services" className="px-4 md:px-8 py-16 bg-card">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
+          <div className="grid grid-cols-1 gap-8 md:gap-10 lg:gap-12 items-start justify-items-center">
+            <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-sm font-medium tracking-widest text-muted-foreground mb-4">
                 WEBSITE DEVELOPMENT IN NCR
               </h2>
               <h3 className="text-3xl md:text-5xl font-montserrat text-foreground leading-tight mb-6">
-                Website Development in Greater Noida, Noida & Gurgaon
+                Website Development Company
               </h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Looking for a web development company in Greater Noida, Noida,
-                or Gurgaon? We design and develop fast, SEO-optimized websites
-                that convert visitors into customers. From corporate sites to
-                e‑commerce, we deliver end‑to‑end solutions including design,
-                development, SEO, and maintenance.
+              <div className="h-px w-24 bg-border mx-auto mb-6" />
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+                Looking for a website maker or web development company in
+                Greater Noida, Noida, or Gurgaon? We design and develop fast,
+                SEO-optimized websites that convert visitors into customers.
+                From corporate sites to e‑commerce, we deliver end‑to‑end
+                solutions including design, development, SEO, and maintenance.
               </p>
             </div>
-            <ul
-              className="space-y-4 sr-only"
-              aria-label="Service areas (hidden)"
-            >
-              <li className="flex items-start gap-3">
-                <span className="mt-1">✅</span>{" "}
-                <span>
-                  Greater Noida – custom websites, landing pages, and e‑commerce
-                  stores
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1">✅</span>{" "}
-                <span>
-                  Noida – performance‑focused development and SEO implementation
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1">✅</span>{" "}
-                <span>
-                  Gurgaon (Gurugram) – business websites that rank and convert
-                </span>
-              </li>
-            </ul>
           </div>
         </div>
       </section>
@@ -303,7 +281,7 @@ export default function Index() {
               <img
                 src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
                 alt="Developer working on code with laptop and programming resources"
-                className="w-full h-[400px] object-cover transition-transform duration-500 hover:scale-105"
+                className="w-full h-[400px] object-cover transition-transform duration-500 hover:scale-105 rounded-xl shadow-lg shadow-black/20"
               />
             </div>
           </div>
@@ -556,7 +534,110 @@ export default function Index() {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             name: "Snarip Studio",
-            alternateName: ["Snarip", "SnaripStudio", "Snarip Studios"],
+            alternateName: [
+              "Snarip",
+              "SnaripStudio",
+              "Snarip Studios",
+              "snrip studio",
+              "sarip studio",
+              "narip studio",
+              "snarp studio",
+              "snaip studio",
+              "snari studio",
+              "ssnarip studio",
+              "snaarip studio",
+              "snarrip studio",
+              "snariip studio",
+              "snaripp studio",
+              "snaripa studio",
+              "sanrip studio",
+              "snraip studio",
+              "snairp studio",
+              "snarpi studio",
+              "nsarip studio",
+              "snarop studio",
+              "snatip studio",
+              "smarip studio",
+              "snwrip studio",
+              "snario studio",
+              "sbarip studio",
+              "snarjp studio",
+              "snarkp studio",
+              "snaeip studio",
+              "anarip studio",
+              "znarip studio",
+              "snarip dtudio",
+              "snorip studio",
+              "snerip studio",
+              "snarup studio",
+              "snyrip studio",
+              "snarip studo",
+              "snarip stodio",
+              "snarip studeo",
+              "snarip stuidio",
+              "snarip studi",
+              "snarip stido",
+              "snarip studoi",
+              "snarip staduio",
+              "snarip studios",
+              "snaripstudio",
+              "snarip-studio",
+              "snarips studio",
+              "snaripstudios",
+              "the snarip studio",
+              "snarip studio co",
+              "snarip studio com",
+              "snrip studios",
+              "sanrip studios",
+              "snarrip studios",
+              "smarip studios",
+              "snrip studo",
+              "sanrip studo",
+              "snarrip stodio",
+              "snarop studeo",
+              "snatip stuidio",
+              "sanripstudio",
+              "snripstudio",
+              "snaripstudos",
+              "snaripstudo",
+              "snaripstodio",
+              "sanrip studeo",
+              "snraip stuidio",
+              "snairp studoi",
+              "snarpi stado",
+              "nsarip studo",
+              "snarp studios",
+              "snaip studo",
+              "snari studeo",
+              "snaro studio",
+              "snari studios",
+              "snapi studio",
+              "snaripe studio",
+              "snario studio",
+              "snarip stufio",
+              "snarip syudio",
+              "snarip atudio",
+              "snarip studuo",
+              "snarip atudios",
+              "snarip stufios",
+              "snairp studo",
+              "snarpi stodio",
+              "sarip studios",
+              "narip studos",
+              "snarrip stufio",
+              "snaarip studeo",
+              "sanripstudeo",
+              "snaripp studo",
+              "snariip stodio",
+              "snarip stoudio",
+              "snarpi studos",
+              "snorip studios",
+              "snerip studeo",
+              "snatip studios",
+              "smarip stuidio",
+              "snarip stud.io",
+              "snarp studeo",
+            ],
             url: typeof window !== "undefined" ? window.location.origin : "",
             image:
               "https://cdn.builder.io/api/v1/image/assets%2Ff48aa15f6f184b529ed3ca882d1ea006%2F80b9e9b58c234d4ebeea01c935603c20?format=webp&width=800",
@@ -650,7 +731,7 @@ export default function Index() {
         </div>
       </footer>
 
-      <style jsx>{`
+      <style>{`
         .nav-link::after {
           content: "";
           position: absolute;
