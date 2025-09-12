@@ -17,6 +17,7 @@ import Index from "./pages/Index";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Loading from "./components/Loading";
+import Packages from "./pages/Packages";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +42,7 @@ const AppContent = () => {
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/packages" element={<Packages />} />
       {/* Redirect common variations to home */}
       <Route path="/Index" element={<Navigate to="/" replace />} />
       <Route path="/index" element={<Navigate to="/" replace />} />
